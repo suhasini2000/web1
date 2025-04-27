@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    max-width: 1200px; /* Set a max width for the entire main container */
+    margin: 0 auto; /* Center the main container */
+    padding: 20px; /* Add some padding */
+}
+
+#content {
+    display: flex; /* Use flexbox to layout content */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+#content1, #content2, #content3 {
+    flex: 1; /* Allow each content area to grow */
+    min-width: 250px; /* Minimum width to maintain layout */
+    padding: 10px; /* Add some padding */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+
+#content3 {
+    text-align: center; /* Center content inside this div */
+}
+
+#map img {
+    max-width: 100%; /* Limit the image to 100% of its parent */
+    height: auto; /* Keep aspect ratio */
+}
+
+#footer {
+    text-align: center; /* Center the footer */
+    padding: 10px; /* Add some padding */
+}

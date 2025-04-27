@@ -1,0 +1,28 @@
+.contact-info1, .social-media {
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.contact-info1 {
+    text-align: left;
+}
+
+.social-media img {
+    text-align: right;
+}
+.contact-info1 img {
+    text-align: left;
+    image-rendering: crisp-edges;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}

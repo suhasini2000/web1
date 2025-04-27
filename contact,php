@@ -1,0 +1,81 @@
+<html>
+<style>
+    #content {
+        width: 1000px; /* Main container width */
+        background-color: #00CCCC;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+
+    #content1 {
+        width: 200px; /* Navigation width */
+        float: left;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    #content2 {
+        width: 450px; /* Slightly reduced to make room for other sections */
+        float: left;
+        padding: 20px;
+        background-color: #fff;
+    }
+
+    #content3 {
+        width: 250px; /* Reduced to fit inside the container */
+        float: right;
+        padding: 10px;
+        background-color: #fff;
+    }
+
+    /* Add clearfix to ensure container height adjusts */
+    #content::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #map img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    * {
+        box-sizing: border-box; /* Prevent overflow due to padding */
+    }
+</style>
+
+
+<div id="content">
+    <div id="content1">
+        <ul class="navi">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="aboutus.php">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.php">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div id="content2">
+        <!-- Contact form content -->
+    </div>
+
+    <div id="content3">
+        <table width="100%" border="0" id="map">
+            <tr>
+                <td>
+                    <img src="images/maps.jpg" alt="Map Image"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.google.com/maps/place/Geninfotech+Computer+Centre/">
+                        Click here for the GenInfotech Computer Education Centre Route Map
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</html>

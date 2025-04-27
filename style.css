@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+#main
+{
+width:1100px;
+height:auto;
+margin-left:50px;
+}
+#header
+{
+height:100px;
+background-image:url(../images/logo.png);
+background-repeat:no-repeat;
+}
+#content
+{
+height:800px;
+width:1100px;
+background-color:#00FFFF;
+margin-top:0px;
+}
+body
+{
+background-color:#00FFFF;
+}
+
+
+#footer
+{
+    clear :both;
+height:auto;
+width:1100px;
+background-color:#000000;
+color:#00FFFF;
+font-size:16px;
+}
+#space
+{
+height:10px;
+}
+/* #menu
+{
+list-style:none;
+margin-top:-200px;
+}
+#menu ul li
+{
+list-style:none;
+}
+#menu ul li a:hover
+{
+color:#009900;
+}
+*/
+
+/* */
+
+ .navi li { margin:0px; padding:0px; }
+.navi li {float:left; display:inline; cursor:pointer; list-style:none; padding:0px 0px 0px 0px; border:1px #000 solid; position:relative; font-size:18px;}
+.navi li ul.first {left:-1px; top:100%;}
+
+li, li a {color:#000; text-decoration:none;}
+.navi li { width:100%; text-indent:10px; line-height:30px; margin-right:0px; border-top:1px #000 solid; border-bottom:1px #000 solid; 
+border-left:none; border-right:none; background:#fff;}
+.navi li a {display:block; width:inherit; height:inherit;}
+
+ul.nav { display:none; }
+.navi li:hover > a, .navi li:hover { color:#fff; background:#000; }
+li:hover > .navi { display:block; position:absolute; width:200px; top:-2px; left:50%; z-index:1000; border:1px #000 solid; } 
+li:hover { position:relative; z-index:2000; } 
+
+#slideshow
+{
+width:650px;
+height:450px;
+}
+
+#content1
+{
+width:200px;
+height:auto;
+float:left;
+}
+#content2
+{
+width:650px;
+height:auto;
+float:left;
+padding-left:20px;
+}
+#content3
+{
+width:200px;
+height:auto;
+float:right;
+}
+#map img {
+    width: 100%; /* Makes the map image responsive */
+    height: auto; /* Maintains the aspect ratio of the image */
+}
+
+#head1
+{
+
+ font-size:24px;
+color:#000066;
+font-family:"Monotype Corsiva";
+font-weight:bold;
+}
+#latest
+{
+ margin-top:0px;
+}
+#para1
+{
+text-align:justify;
+ font-size:12px;
+color:#000066;
+font-family:Arial, Helvetica, sans-serif
+}
+#content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#content5
+{
+width:850px;
+height:auto;
+float:right;
+
+}
+
+
